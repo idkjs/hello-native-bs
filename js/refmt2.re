@@ -1,4 +1,4 @@
-open RefmtShared;
+open !RefmtShared;
 
 [@bs.module "./refmt.js"] external parseREEx: string => ast = "parseRE";
 
